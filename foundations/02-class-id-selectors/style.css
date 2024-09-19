@@ -1,0 +1,18 @@
+.neparan{
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#broj2{
+    color: blue;
+    font-size: 36px;
+}
+
+#broj4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+.veci-font
+{
+    font-size: 24px;
+}

@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -23,4 +26,85 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* odje */
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul
+{
+  list-style: none;
+ 
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+a:visited
+{
+  color: black;
+}
+
+.header .left-links
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+  
+}
+.header .right-links
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+}
+
+.footer
+{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer .left-links
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+}
+
+.footer .right-links
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+}
+
+
+.content
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 15px;
+}
+
+button{
+  padding: 12px;
 }

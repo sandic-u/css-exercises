@@ -27,3 +27,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* odje */
+
+.card{
+  max-width: 300px;
+  padding: 16px;
+}
+
+.sidebar{
+  padding: 16px;
+  flex-shrink: 0;
+}
+
+.big-wrapper
+{
+  display: flex;
+  flex: 1;
+}
+
+.card-wrapper
+{
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+
+ul
+{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-weight: 900;
+  font-size: 32px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
